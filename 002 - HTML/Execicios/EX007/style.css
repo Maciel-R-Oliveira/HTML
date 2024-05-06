@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+    Para se referir a ID = # 
+    Para se referir a class = .
+*/
+
+body {
+    background-color: #cbffcb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #006000;
+}
+
+#principal {
+    text-align: center;
+    background-color: #006000;
+    color: white;
+}
+
+h2 {
+    color: #37873b;
+}
+
+.basico{
+    color: #37873b;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #877e37;
+}
+
+.avancado{
+    color: #873737;
+}

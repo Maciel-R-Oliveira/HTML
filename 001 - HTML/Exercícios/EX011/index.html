@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos!</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="img dinamica">
+    </picture>  
+    <h1>Reproduzindo audios em HTML5</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="Midias/flex-vintage-revival-demo.mpeg" type="audio/mpeg">
+        <source src="Midias/flex-vintage-revival-demo.ogg" type="audio/ogg">
+        <source src="Midias/flex-vintage-revival-demo.wav" type="audio/wav">
+        <source src="Midias/flex-vintage-revival-demo.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador não é compativel. click <a href="Midias/flex-vintage-revival-demo.mp3" download="">aqui</a> para baixar</p>
+    </audio>
+</body>
+</html>
