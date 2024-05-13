@@ -86,13 +86,13 @@
     }
 
     section#img1 {
-        background-image: url("/EX009/img/manuscrito.jpg");
+        background-image: url("img/manuscrito.jpg");
         background-position: left center;
         background-repeat: no-repeat
     }
 
     section#img2 {
-        background-image: url("/EX009/img/joaninha.jpg");
+        background-image: url("img/joaninha.jpg");
         background-position: right center;
         background-repeat: no-repeat
     }
