@@ -64,7 +64,7 @@
         padding-bottom: 2em;
     }
 
-    section.normal{
+    section.normal {
         background-color: white;
         color: black
     }
@@ -86,13 +86,13 @@
     }
 
     section#img1 {
-        background-image: url('img/manuscrito.jpg');
+        background-image: url('imagens/manuscrito.jpg');
         background-position: left center;
         background-repeat: no-repeat
     }
 
     section#img2 {
-        background-image: url('img/joaninha.jpg');
+        background-image: url('imagens/joaninha.jpg');
         background-position: right center;
         background-repeat: no-repeat
     }
