@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 600px;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        /* 2n-1 */
+        tbody tr:nth-child(odd) {
+            background-color: lightskyblue;
+
+        }
+        /* 2n */
+        tbody tr:nth-child(even) {
+            background-color: yellow;
+        }
+
+       
+
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia de para tabelas grandes  -->
+    <!-- table
+            caption
+            thead
+                tr td th
+            tbody
+                tr td th 
+            tfoot
+                tr td th
+     -->
+
+     <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tfoot>
+                    
+                    <tr>
+                        <th scope="row">Total de habitantes</th>
+                        <td class="num">45.975.015</td>
+                    </tr>
+                </tfoot>
+        </tbody>
+        
+     </table>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi nulla eligendi velit ab? Quia voluptas tempora rem sunt doloribus quae nostrum ab possimus in eum. Delectus, deleniti minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos atque veniam laborum vitae accusamus velit eos consequatur quod facere! Voluptas, vel? Quo quibusdam sapiente blanditiis quasi consectetur mollitia provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor veritatis nisi dolores illo accusantium sit non adipisci maxime nulla? Quas magni rerum perferendis aliquam rem dolore saepe beatae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum earum iusto animi praesentium quae sunt dolore eveniet labore, vitae fuga rerum! Quos cumque ut quasi doloribus quas, fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum, sequi odit consectetur excepturi quibusdam iure ullam, hic asperiores harum magnam, a porro illo soluta nesciunt praesentium inventore nisi amet!</p>
+</body>
+</html>

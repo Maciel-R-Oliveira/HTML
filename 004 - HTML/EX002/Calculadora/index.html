@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="central">
+
+        <Div class="central2">
+
+
+            <p class="tela">0</p>
+            <div class="Numeros">
+
+            <button class="limpar a" onclick="clean()">C</button>
+            <button class="apagar a" onclick="back()"><</button>
+            <button class="dividir a" onclick="insert(`/`)">/</button>
+            <button class="sete a" onclick="insert(`7`)">7</button>
+            <button class="oito a" onclick="insert(`8`)">8</button>
+            <button class="nove a" onclick="insert(`9`)">9</button>
+            <button class="quatro a" onclick="insert(`4`)">4</button>
+            <button class="cinco a" onclick="insert(`5`)">5</button>
+            <button class="seis a" onclick="insert(`6`)">6</button>
+            <button class="um a" onclick="insert(`1`)">1</button>
+            <button class="dois a" onclick="insert(`2`)">2</button>
+            <button class="tres a" onclick="insert(`3`)">3</button>
+            <button class="zero a" onclick="insert(`0`)">0</button>
+            <button class="ponto a" onclick="insert(`.`)">.</button>
+            
+            </div>
+            <div class="p">
+                <button class="multiplicacao a" onclick="insert(`*`)">X</button>
+                <button class="subtracao a" onclick="insert(`-`)">-</button>
+                <button class="adicao a" onclick="insert(`+`)">+</button>
+                <button class="igual a" onclick="calcular()">=</button>
+            </div>
+
+
+        </Div>
+
+    </div>
+</body>
+</html>
